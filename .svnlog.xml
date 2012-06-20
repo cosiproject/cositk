@@ -1,0 +1,4936 @@
+<?xml version="1.0"?>
+<log>
+<logentry
+   revision="51">
+<author>root</author>
+<date>2011-11-20T17:32:42.461198Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/cositk/trunk/src/net</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="50">
+<author>lotherk</author>
+<date>2011-11-20T17:24:53.080361Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/signal/Signal.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/package-list</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/GridBagLayout.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/PluginContainer.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Tray.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Tray.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/Cfg.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/conf/Value.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Container.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Container.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/windows/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Component.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/class-use/Notifier.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/allclasses-noframe.html</path>
+<path
+   kind="dir"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/formular</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/workspace/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/event/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/event/package-summary.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Layout.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Layout.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/ComboBox.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/event/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/meta/Meta.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/CfgKey.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Container.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Container.java</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/core/version</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/package-summary.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/logger</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/event"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/event</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/package-use.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/system/PlattformHandler.java"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/system/PlattformHandler.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/MacOSX.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-16.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/system/Plattform.java"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/system/Plattform.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentSet.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-10.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/GridBagLayout.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Insets.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Insets.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/overview-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/class-use/PluginDirectory.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/windows/class-use/Windows.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/config/xml/PluginLoaderElement.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/package-summary.html</path>
+<path
+   kind="file"
+   action="D">/cosi/trunk/src/lang/net/lother/cosi/COSI.xml</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/CronJob.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Color.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Label.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/core/localization</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/class-use/Cron.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/FileNode.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-8.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/GUIWrapper.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/PopupMenu.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/agent/class-use/CosiAgent.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSet.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/overview-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/logger/COSIAppender.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/agent/package-use.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSeparator.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-6.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Color.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Color.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Label.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Label.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/event/Event.html</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/lang/org/cosiproject/cosix/gui</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/arguments/ArgumentVersion.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/MenuItem.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/MenuItem.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/CfgKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/conf/CfgValue.java</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/lang/org</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/TabbedPane.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Dimension.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-10.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/Argument.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Dimension.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/conf</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/package-tree.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Frame.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/tools"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/tools</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/overview-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/overview-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/FileTree.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Panel.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Key.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/beans/MenuBean.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/util/package-use.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/thing"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/thing</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/macosx/OSXAdapter.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/localizer"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/localizer</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/core/entity</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/windows/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/cron/CronJob.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/event/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cosixtk/trunk/src/org/cosiproject/cosixtk</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/localizer/Localizer.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/class-use/COSIConfig.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/version/Version.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/Searcher.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/workspace/class-use/Workspace.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/cosi.xml</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-2.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/FileTree.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/FileTree.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/DefaultSearcher.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/localizer/Localizer.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/meta/package-use.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/MenuBar.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/MenuBar.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/version/Version.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/exceptions/COSIFatalErrorException.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/exceptions/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/class-use/FormularCreator.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Layout.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Layout.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Key.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/class-use/FormularItem.html</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/logger</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/beans/SearchBean.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/system/Notifier.java"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/system/Notifier.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-17.html</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/org</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/TextField.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/TextField.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Tray.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Tray.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/Notifier.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Color.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Label.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/logger/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/thread/ThreadManager.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/MenuItem.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/TextField.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/TextField.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/meta/class-use/Meta.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/package-tree.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/lang/net/lother/cosi/arguments</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Icon.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/build.xml</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/FileNode.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentEvent.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/GridBagLayout.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/GridBagLayout.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/package-list</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/package-tree.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/gui/dialog"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/dialog</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/GridBagLayout.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/class-use/CosiElement.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/system/macosx"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/system/macosx</path>
+<path
+   kind="dir"
+   action="D">/cositk/trunk/src/net/lother/cositk/tools</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentPrefix.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/thing/searcher/Searcher.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Menu.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/meta"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/meta</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/thread</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSwitch.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/BorderLayout.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/system/DefaultPlattformHandler.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/system/DefaultPlattformHandler.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/allclasses-frame.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/tools"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/tools</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/exceptions/ArgumentorUnknownArgumentException.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/plugin/COSIPluginLoaderX.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentValue.html</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/org/cosiproject</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/FlowLayout.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/FlowLayout.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/workspace"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/workspace</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/formular"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/formular</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/conf/SuperConf.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/cron"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/cron</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/resources</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/util/PluginPool.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-17.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-11.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/COSIFatalErrorException.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/sidebar/TreeSelectionListener.java</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/core/thing</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/argumentor"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/argumentor</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Rectangle.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/workspace/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Rectangle.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/arguments/ArgumentVersion.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentEvent.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/class-use/FormularList.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/logger/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/thread/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Container.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/GUIWrapper.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Menu.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Menu.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/class-use/StringTool.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-9.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/lang/net/lother/cosix/gui/sidebar"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/lang/org/cosiproject/cosix/gui/sidebar</path>
+<path
+   kind="file"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/gui/MainWindow.java"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/MainWindow.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/TKProvider.html</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/lang/org/cosiproject/cosix</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/lang/de</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/Localizer.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/SearcherImpl.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/entity"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/entity</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Panel.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentValue.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/MetaPlugin.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/config/Config.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/event/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/package-list</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/plugin/AbstractPlugin.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSwitch.html</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Button.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/Plattform.html</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/gui/sidebar</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/class-use/Cosi.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/conf/Cfg.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-11.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentSwitch.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/class-use/CoreElement.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentEvent.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/MenuBar.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/BorderLayout.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/BorderLayout.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/class-use/Version.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/tools/class-use/PluginXML.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/CfgValue.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/ComboBox.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/ComboBox.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Insets.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/CronAble.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/event/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/xml/CPMMeta.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/Value.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/class-use/DefaultSearcher.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/tools/ObjectTool.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentValue.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/system/Notifier.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/system/Notifier.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/system/interfaces/CosiXNotifier.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-20.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/GridBagConstraints.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/meta/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/MenuBar.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/src/org/cosiproject/xtoolkit/formular/Formular.java</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/FileTree.java</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Component.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Component.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/FlowLayout.java</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/gui/dialog</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/FlowLayout.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Insets.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-1.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/pluginloader/xml"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/xml</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Button.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Button.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/workspace/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/event/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/COSIConfig.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/SuperConf.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/OSXAdapter.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/BorderLayout.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/deprecated-list.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/event/class-use/Event.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/Signal.html</path>
+<path
+   kind="dir"
+   action="D">/cositk/trunk/src/net/lother/cositk/signal</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSwitchQueue.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/slidepanel/SlidePanel.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/class-use/AbstractPlugin.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Tray.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/config"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/config</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/arguments/class-use/ArgumentHelp.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/GridBagConstraints.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/GridBagConstraints.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/resources"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/resources</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Dimension.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/class-use/CPMMeta.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/Cron.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Conf.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Conf.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/class-use/CPMPlugin.html</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/system</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/overview-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/windows/package-frame.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/cron</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/signal/SignalHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/beans/StatusBarBean.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/conf"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/conf</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/config</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/xml/CPMClasspath.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/ComboBox.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/windows/Windows.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Frame.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Frame.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/logger/package-frame.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Color.java</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Label.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Panel.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Panel.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/src/org/cosiproject/xtoolkit/event/ActionEvent.java</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/beans/MenuBarBean.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/serialized-form.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/meta/Meta.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/PopupMenu.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Icon.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/system/macosx/OSXAdapter.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/TextField.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/PopupMenu.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/Version.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-18.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/class-use/COSIFatalErrorException.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-12.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Menu.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Menu.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/class-use/ConfigElement.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/TabbedPane.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/TabbedPane.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/annotations/package-summary.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/Cosi.java"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/Cosi.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/signal/SignalCallback.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/thing/searcher/DefaultSearcher.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/org</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/windows/Windows.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/argumentor/package.tmpl"
+   copyfrom-rev="47"
+   action="R">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/package.tmpl</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Layout.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Layout.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentMultiplicity.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/class-use/AbstractThing.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Value.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Container.html</path>
+<path
+   kind="dir"
+   action="D">/cositk/trunk/src/net/lother/cositk/version</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/class-use/COSIPluginIncompatibleException.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/Notifier.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/PluginLoaderElement.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/agent"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/agent</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/src/org/cosiproject/xtoolkit/system/windows/Windows.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/TKProvider.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Icon.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/hibernate"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/hibernate</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/exceptions/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/CosiElement.html</path>
+<path
+   kind="dir"
+   action="A">/cosixtk/trunk/src/org</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/event/Event.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/CfgValue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentPrefix.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/BorderLayout.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/BorderLayout.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/package-summary.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/logger"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/logger</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/package-frame.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/core/event</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/PluginDirectory.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-8.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSwitchQueue.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/pluginloader"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/pluginloader</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/Formular.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/CPMClasspath.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentParameter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Value.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/agent/CosiAgent.java</path>
+<path
+   kind="dir"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/Conf.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-12.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/Key.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/SignalCallback.html</path>
+<path
+   kind="dir"
+   action="D">/cosixtk-swing/trunk/src/net/lother/cosixtk/swing</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Button.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Button.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/agent/CosiAgent.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/arguments"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/arguments</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/FileTree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/util/package-frame.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/gui/widgets/filetree"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/widgets/filetree</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Rectangle.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/event/class-use/EventHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/event/EventHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/cron/Cron.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/lang/net/lother/cosi/arguments"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/lang/org/cosiproject/cosi/arguments</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/index-all.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-4.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/exceptions</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/MenuItem.html</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/config</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentEvent.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentParameter.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/system/macosx"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/system/macosx</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/config/xml/ConfigElement.java</path>
+<path
+   kind="dir"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/event</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/event/ActionEvent.html</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/lang/org/cosiproject/cosi/core</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/package-list</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/MenuItem.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/MenuItem.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/SuperConf.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/logger/class-use/COSIAppender.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentPrefix.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/Notifier.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/package-frame.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Dimension.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Dimension.java</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/system</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/version"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/version</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/agent/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/windows/class-use/Windows.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/sidebar/Node.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/SuperConf.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/workspace/Workspace.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Color.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/arguments/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Label.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/system/interfaces"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/system/interfaces</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/localizer/LocalizerKey.java</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentValue.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentPrefix.java</path>
+<path
+   kind="dir"
+   action="A">/cosixtk-swing/trunk/src/org</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/TabbedPane.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/COSIPluginIncompatibleException.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/TabbedPane.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/FileNode.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentParameter.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/plugin/MetaPlugin.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/class-use/Windows.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/CoreElement.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/class-use/SearcherImpl.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/GridBagLayout.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/agent/MANIFEST.MF</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/FormularCreator.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/tools</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentCallback.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/exceptions"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/exceptions</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/event/class-use/ActionListener.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/LocalizerKey.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/GUIWrapper.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/GUIWrapper.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/windows/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/windows/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/tools/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/core/logger</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/config/CosiXConfig.java</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/beans/ContentPaneBean.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/class-use/Searcher.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/thing</path>
+<path
+   kind="dir"
+   action="A">/cositools/trunk/src/org/cosiproject/tools</path>
+<path
+   kind="file"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/gui/TransparentBackground.java"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/TransparentBackground.java</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/core/pluginloader</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Tray.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentOption.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/event/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/src/org/cosiproject/xtoolkit/event/ActionListener.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/meta/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/TextField.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/org/cosiproject</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositools/trunk/src/net/lother/cosi/tools/PluginMaker"
+   copyfrom-rev="47"
+   action="A">/cositools/trunk/src/org/cosiproject/tools/PluginMaker</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-19.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Component.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-13.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/FileTree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/overview-summary.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Menu.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/tools/ObjectTool.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/system</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/signal/Signal.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/event/ActionListener.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/widgets/filetree/FileNode.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/FlowLayout.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/BorderLayout.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/tools/StringTool.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Tray.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/cosixtk/trunk/src/org/cosiproject</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/thing/searcher/SearcherImpl.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-use.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/pluginloader</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Icon.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/test/Test.java</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/lang</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/class-use/PluginContainer.html</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/gui/beans</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-summary.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/system/DefaultPlattformHandler.java"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/system/DefaultPlattformHandler.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/thread"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/thread</path>
+<path
+   kind="dir"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit</path>
+<path
+   kind="dir"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/system</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/annotations/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/tools/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/class-use/AbstractPluginLoader.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/widgets/filetree/FileTreeCellRenderer.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/AbstractPluginLoader.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/logger/CosiXAppender.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-9.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/core/meta</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentOption.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/constant-values.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/xml/CPMParent.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/arguments/ArgumentHelp.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Rectangle.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Rectangle.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/config/xml/CosiElement.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/exceptions/COSIPluginAlreadyExistsException.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/PopupMenu.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/CPMParent.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/MenuBar.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-13.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/signal/SignalHandler.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/package-summary.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/pluginloader/COSIPluginLoader.java"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/COSIPluginLoader.java</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/thing</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-summary.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Color.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Color.java</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/workspace</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Label.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Label.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/FormularCreator.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/config/PluginDirectory.java"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/config/PluginDirectory.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/util/PluginPool.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/overview-summary.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosi/trunk/src/lang/net/lother/cosi/COSI.xml"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/lang/org/cosiproject/cosi/COSI.xml</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/beans/QuickSelectBean.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/exceptions/ArgumentorUnknownArgument.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/tools/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/arguments/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/arguments/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Layout.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-5.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/package-summary.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/GUIWrapper.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/GUIWrapper.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentHandler.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/thing/annotations"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/thing/annotations</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/SignalCallback.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/thread/ThreadManager.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/class-use/FormularItem.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/CfgValue.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/sidebar/PopupMenuMouseListener.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/system/windows"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/system/windows</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/logger"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/logger</path>
+<path
+   kind="file"
+   action="D">/cosix/trunk/src/net/lother/cosix/gui/MainWindow.java</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/widgets</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/event/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/ComboBox.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/package-summary.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/core/argumentor</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/class-use/Formular.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Layout.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/package-tree.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/MenuItem.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/CosiClassLoader.java"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/CosiClassLoader.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/package-frame.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/thing/searcher"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/thing/searcher</path>
+<path
+   kind="file"
+   action="D">/cosix/trunk/src/net/lother/cosix/gui/TransparentBackground.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/overview-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-tree.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/ComboBox.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/ComboBox.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/MenuBar.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/gui/widgets/textfield"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/widgets/textfield</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSwitchQueue.java"
+   copyfrom-rev="47"
+   action="R">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentSwitchQueue.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/CosiClassLoader.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/cron/CronAble.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/event/ActionListener.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/COSIPluginLoader.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/agent/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/util/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/workspace/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/ConfigElement.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Insets.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentParameter.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/annotations/package-tree.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/TKProvider.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/TKProvider.java</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Button.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Button.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/SignalHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/conf/Key.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/GridBagLayout.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/GridBagLayout.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/class-use/CPMClasspath.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/config/xml/CoreElement.java</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/Container.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/thread/package-tree.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Component.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Component.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Container.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/Main.java</path>
+<path
+   kind="dir"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/system</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/dialog/ErrorDialog.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/gui/beans"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/beans</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Dimension.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/GridBagConstraints.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/system/windows"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/system/windows</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/org/cosiproject</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/event"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/event</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Component.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Component.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-tree.html</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/org</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-14.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/windows/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/event/ActionListener.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/package-summary.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/exceptions/ArgumentorUnknownArgumentException.java"
+   copyfrom-rev="47"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/exceptions/ArgumentorUnknownArgumentException.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/exceptions/class-use/ArgumentorUnknownArgument.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/localization"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/localization</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/class-use/FormularList.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/package-frame.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSwitchQueue.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/beans/ToolBarPanelBean.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/CosiX.java"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/CosiX.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/src/org/cosiproject/xtoolkit/formular/FormularCreator.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Tray.html</path>
+<path
+   kind="file"
+   action="D">/cosix/trunk/src/net/lother/cosix/gui/SplashScreen.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/build.xml</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/meta/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/TabbedPane.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/serialized-form.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/overview-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/config</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Panel.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/event/class-use/ActionEvent.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/class-use/COSIPluginAlreadyExistsException.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/plugin/AbstractPluginX.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentHandler.java"
+   copyfrom-rev="47"
+   action="R">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentHandler.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Menu.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentCallback.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentCallback.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/workspace/Workspace.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Cfg.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/lang/de/gui"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/lang/de/gui</path>
+<path
+   kind="file"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/thing/AbstractThing.java"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/thing/AbstractThing.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/plugin"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/plugin</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/PopupMenu.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/PopupMenu.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/index-all.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/BorderLayout.html</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/lang/org/cosiproject</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/thread/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/class-use/CronJob.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/logger/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/macosx/MacOSX.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentOptionQueue.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/PopupMenu.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/PopupMenu.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/ObjectTool.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/annotations/class-use/Thing.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-14.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/class-use/CosiClassLoader.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/localizer/LocalizerKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/conf/CfgKey.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-tree.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/pluginloader/AbstractPluginLoader.java"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/AbstractPluginLoader.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentSeparator.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/argumentor"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/argumentor</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Cfg.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Menu.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/agent/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/CfgKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/system/windows/Windows.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/arguments/ArgumentHelp.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/BorderLayout.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/Signal.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/package-use.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/gui/slidepanel"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/slidepanel</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/Formular.html</path>
+<path
+   kind="file"
+   action="D">/cosi/trunk/src/net/lother/cosi/Cosi.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/system/windows"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/system/windows</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/arguments/class-use/ArgumentVersion.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/AbstractPlugin.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/event/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/Argument.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/TabbedPane.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/TabbedPane.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/MenuItem.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/event/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-6.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/sidebar/Item.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/FileNode.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/exceptions/ArgumentorUnknownArgumentException.java</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentParameter.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-summary.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/TKProvider.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/TKProvider.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/class-use/Localizer.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/Windows.html</path>
+<path
+   kind="file"
+   action="D">/cosi/trunk/src/net/lother/cosi/CosiClassLoader.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/FormularItem.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/agent</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/class-use/COSIPluginLoader.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentSwitch.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/hibernate</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/event"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/event</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/exceptions/ArgumentorUnknownArgument.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/tools/StringTool.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Rectangle.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/FileNode.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/FileNode.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/FlowLayout.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSeparator.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/windows/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/allclasses-frame.html</path>
+<path
+   kind="dir"
+   action="A">/cositools/trunk/src/org/cosiproject</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/src/org/cosiproject/xtoolkit/formular/FormularItem.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/Plattform.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentSet.java</path>
+<path
+   kind="dir"
+   action="D">/cositools/trunk/src/net/lother/cosi/tools</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/GridBagConstraints.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/exceptions/class-use/ArgumentorUnknownArgumentException.html</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/TextField.java</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/package.tmpl</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/TextField.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/class-use/MacOSX.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/event/ActionEvent.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSet.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/net/lother/cosi/arguments</path>
+<path
+   kind="file"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/gui/SplashScreen.java"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/SplashScreen.java</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/ComboBox.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/Plattform.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSeparator.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/exceptions"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/exceptions</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/Cosi.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentOptionQueue.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Insets.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Insets.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/plugin/PluginContainer.java</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/lang/net/lother/cosix/gui</path>
+<path
+   kind="file"
+   action="D">/cosix/trunk/src/net/lother/cosix/CosiX.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/GUIWrapper.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Dimension.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/package-tree.html</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/lang/org</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Icon.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/exceptions/COSIPluginAlreadyExistsException.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/FileTree.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Panel.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-15.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/beans/SideBarBean.java</path>
+<path
+   kind="dir"
+   action="A">/cosi/trunk/src/lang/org/cosiproject/cosi</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/FormularList.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/thread/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/arguments/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/sidebar/PopupMenu.java</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/plugin</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/plugin/PluginContainerX.java</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/lang/de</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentCallback.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/pluginloader/util"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/util</path>
+<path
+   kind="dir"
+   action="D">/cositk/trunk/src/net/lother/cositk/conf</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/MenuItem.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Frame.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Frame.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/cosi.xml</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/Argument.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/src/org/cosiproject/xtoolkit/formular/FormularList.java</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/Panel.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/Panel.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentCallback.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/FormularItem.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/signal"
+   copyfrom-rev="46"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit/signal</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/class-use/FormularCreator.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/class-use/Notifier.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Component.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/exceptions/ArgumentorUnknownArgument.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/gui/sidebar"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui/sidebar</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/tools/package-use.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/Icon.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/Icon.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/SignalHandler.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/MenuBar.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/MenuBar.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Button.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Container.html</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/widgets/filetree/FileTree.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/signal/SignalCallback.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentHandler.java</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/gui/slidepanel</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/exceptions/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/exceptions/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cositools/trunk/src/org</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-15.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosixtk-swing/trunk/src/net/lother/cosixtk/swing/test"
+   copyfrom-rev="47"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing/test</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/logger/COSIAppender.java</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentMultiplicity.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/config/xml"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/config/xml</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/class-use/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/serialized-form.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/GridBagLayout.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/overview-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/overview-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/windows/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Menu.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/version"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/version</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/cron/class-use/CronAble.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentSwitchQueue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/conf/Conf.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Button.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/exceptions/COSIPluginIncompatibleException.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/formular/class-use/Formular.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/org/cosiproject/toolkit</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/AbstractThing.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/constant-values.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/class-use/PluginLoaderElement.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/CPMMeta.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/class-use/CPMParent.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/PopupMenu.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/overview-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/serialized-form.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/Panel.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/config/COSIConfig.java"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/config/COSIConfig.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/event/EventHandler.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/class-use/MetaPlugin.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/class-use/LocalizerKey.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/searcher/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/system/Notifier.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/core/pluginloader/plugin"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/plugin</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/FlowLayout.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/Rectangle.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cosixtk/trunk/src/net/lother/cosixtk/GridBagConstraints.java"
+   copyfrom-rev="47"
+   action="A">/cosixtk/trunk/src/org/cosiproject/xtoolkit/GridBagConstraints.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/ComboBox.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/class-use/OSXAdapter.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/index-files/index-5.html</path>
+<path
+   kind="dir"
+   action="D">/cosi/trunk/src/lang/net/lother/cosi/core</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/FormularList.html</path>
+<path
+   kind="dir"
+   action="A">/cosixtk-swing/trunk/src/org/cosiproject/xtoolkit/swing</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Color.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/formular/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/Label.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/examples/net/lother/cositk/examples/ArgumentorExample.java</path>
+<path
+   kind="file"
+   action="D">/cosixtk/trunk/src/net/lother/cosixtk/FileNode.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/Notifier.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/lang/net/lother/cosi/core/argumentor"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/lang/org/cosiproject/cosi/core/argumentor</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/TabbedPane.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/annotations/Thing.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/thread/class-use/ThreadManager.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSet.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/util/class-use/PluginPool.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/event/class-use/ActionListener.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/lang/net/lother/cosix/gui/beans"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/lang/org/cosiproject/cosix/gui/beans</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSwitch.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/system/macosx/MacOSX.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosi/trunk/src/net/lother/cosi/conf"
+   copyfrom-rev="43"
+   action="A">/cosi/trunk/src/org/cosiproject/cosi/conf</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Layout.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/plugin/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/Tray.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentEvent.html</path>
+<path
+   kind="dir"
+   action="D">/cositk/trunk/src/net/lother/cositk/system</path>
+<path
+   kind="dir"
+   action="D">/cositk/trunk/src/net/lother/cositk/localizer</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/pluginloader/xml/CPMPlugin.java</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/class-use/ObjectTool.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSeparator.java"
+   copyfrom-rev="47"
+   action="R">/cositk/trunk/src/org/cosiproject/toolkit/argumentor/ArgumentSeparator.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/StringTool.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/MenuBar.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/exceptions/ArgumentorUnknownArgumentException.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/tools/PluginXML.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/TKProvider.html</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/gui</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/xml/CPMPlugin.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentPrefix.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/system/class-use/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/tools/PluginXML.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/event/class-use/ActionEvent.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/pluginloader/util/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/index-files/index-16.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/thing/annotations/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/cosix/trunk/src/lang/org/cosiproject</path>
+<path
+   kind="dir"
+   action="D">/cosix/trunk/src/net/lother/cosix/gui/widgets</path>
+<path
+   kind="file"
+   action="M">/cosix/trunk/src/org/cosiproject/cosix/gui/sidebar/TreeCellRenderer.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentValue.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/config/xml/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/doc/net/lother/cosi/core/event/package-frame.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/package.html</path>
+<path
+   kind="file"
+   action="M">/cosi/trunk/src/org/cosiproject/cosi/core/thing/annotations/Thing.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/windows/Windows.html</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/doc/net/lother/cosixtk/class-use/TextField.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/org/cosiproject/toolkit/exceptions/ArgumentorUnknownArgument.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/class-use/GridBagConstraints.html</path>
+<path
+   kind="dir"
+   copyfrom-path="/cosix/trunk/src/net/lother/cosix/logger"
+   copyfrom-rev="47"
+   action="A">/cosix/trunk/src/org/cosiproject/cosix/logger</path>
+<path
+   kind="file"
+   action="M">/cositools/trunk/src/org/cosiproject/tools/PluginMaker/PluginMaker.java</path>
+<path
+   kind="file"
+   action="M">/cosixtk/trunk/javadoc/net/lother/cosixtk/GridBagConstraints.html</path>
+</paths>
+</logentry>
+<logentry
+   revision="47">
+<author>lotherk</author>
+<date>2011-11-20T16:43:18.972274Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/Windows.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/class-use/Version.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/Cfg.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentSwitch.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/exceptions/ArgumentorUnknownArgument.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/CfgValue.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/signal/Signal.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSeparator.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/Value.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/Plattform.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/CfgKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/tools/ObjectTool.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/tools/StringTool.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentValue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/build.num</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions/class-use/ArgumentorUnknownArgumentException.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/package.tmpl</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/class-use/MacOSX.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/MacOSX.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentSet.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSet.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/overview-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/Plattform.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSeparator.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/OSXAdapter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/SuperConf.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/Signal.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSwitchQueue.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/.svnlog.xml</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Conf.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Conf.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/signal/SignalHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/overview-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSeparator.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions/ArgumentorUnknownArgument.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/deprecated-list.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/CfgKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/SignalCallback.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/CfgValue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/Version.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentCallback.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/help-doc.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/releases/cositk-0.1.21-javadoc.zip.MD5</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions/class-use</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Key.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/macosx/OSXAdapter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/SignalHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/index.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentHandler.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/signal/SignalCallback.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Value.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/localizer/Localizer.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/Notifier.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/signal</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/version/Version.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/windows</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions/package-use.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/constant-values.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-use.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions/package-tree.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/localizer</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Key.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/overview-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/CfgValue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentPrefix.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentSwitchQueue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/SignalHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSwitchQueue.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/Notifier.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentParameter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Value.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/Conf.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/build.xml</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/Key.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/SignalCallback.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentEvent.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/serialized-form.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/class-use/LocalizerKey.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions/class-use/ArgumentorUnknownArgument.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSwitch.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/class-use/OSXAdapter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSwitchQueue.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/ChangeLog</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/index-all.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/exceptions/ArgumentorUnknownArgumentException.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/examples/net/lother/cositk/examples/ArgumentorExample.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentValue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/Notifier.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/macosx</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentParameter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSet.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentCallback.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/SuperConf.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentCallback.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentPrefix.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Cfg.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/tools</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/SuperConf.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentEvent.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/macosx/MacOSX.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/class-use/ObjectTool.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools/class-use/StringTool.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools/StringTool.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/ObjectTool.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/exceptions/ArgumentorUnknownArgumentException.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentParameter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/class-use/Windows.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/Localizer.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/localizer/LocalizerKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-tree.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/version</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentPrefix.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentSeparator.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/LocalizerKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Cfg.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSwitch.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/conf/CfgKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/Signal.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/releases/cositk-0.1.21-javadoc.zip</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/ArgumentValue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/Plattform.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/argumentor/Argument.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/system/windows/Windows.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/exceptions/ArgumentorUnknownArgumentException.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentEvent.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/src-html/net/lother/cositk/exceptions</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/class-use/Localizer.html</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="42">
+<author>lotherk</author>
+<date>2011-11-18T19:08:16.815477Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/Windows.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/class-use/Version.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/CfgValue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSeparator.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/Plattform.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/Plattform.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentOption.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/CfgKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/build.num</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/package.tmpl</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/class-use/MacOSX.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/MacOSX.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSet.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/overview-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSeparator.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/PlattformHandler.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/OSXAdapter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/SuperConf.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/Signal.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/include/LICENSE.txt</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentOption.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/exceptions</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentOptionQueue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Conf.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Conf.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSet.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/overview-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSeparator.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/deprecated-list.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/DefaultPlattformHandler.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/CfgKey.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentOptionQueue.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/Argument.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/Argument.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/SignalCallback.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/Version.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/help-doc.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Key.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/exceptions/ArgumentorUnknownArgument.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/SignalHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/index.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/examples/log4j.properties</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentHandler.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Value.html</path>
+<path
+   kind="file"
+   action="D">/cositk/trunk/src/net/lother/cositk/argumentor/Argument.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/Notifier.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/constant-values.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentMultiplicity.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Key.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/overview-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/CfgValue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentPrefix.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/SignalHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Value.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/build.xml</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/SignalCallback.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/class-use/LocalizerKey.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentPrefix.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/class-use/OSXAdapter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-tree.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentOptionQueue.java"
+   copyfrom-rev="37"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSwitchQueue.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/index-all.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/examples/net/lother/cositk/examples/ArgumentorExample.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/Notifier.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentEvent.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentParameter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/version/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSet.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentPrefix.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentOption.java"
+   copyfrom-rev="37"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSwitch.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/Cfg.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/SuperConf.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentValue.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentOptionQueue.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/class-use/ObjectTool.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/tools/ObjectTool.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentParameter.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/windows/class-use/Windows.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/Localizer.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/package-tree.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   copyfrom-path="/cositk/trunk/src/net/lother/cositk/argumentor/Argument.java"
+   copyfrom-rev="37"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentCallback.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/LocalizerKey.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/include/ChangeLog</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/package-list</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Cfg.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/Signal.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/Plattform.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/package.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentOption.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/tools/StringTool.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/examples/net/lother/cositk/examples/DefaultExample.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-use.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentParameter.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/signal/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-summary.html</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/.settings/net.sf.jautodoc.prefs</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/javadoc/net/lother/cositk/localizer/class-use/Localizer.html</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="37">
+<author>lotherk</author>
+<date>2011-11-18T00:08:48.551555Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/conf/Key.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentMultiplicity.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/localizer/LocalizerKey.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSet.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/conf/CfgValue.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentPrefix.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/conf/Cfg.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSeparator.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/macosx/OSXAdapter.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/signal/SignalHandler.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/conf/SuperConf.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/signal/Signal.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/PlattformHandler.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/Plattform.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/conf/CfgKey.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentOption.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/DefaultPlattformHandler.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/conf/Value.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/Notifier.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentOptionQueue.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/tools/ObjectTool.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/examples/net/lother/cositk/examples/DefaultExample.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/Argument.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentParameter.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/signal/SignalCallback.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/localizer/Localizer.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/macosx/MacOSX.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/system/windows/Windows.java</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/conf/Conf.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/.settings/net.sf.jautodoc.prefs</path>
+<path
+   kind="file"
+   action="M">/cositk/trunk/src/net/lother/cositk/version/Version.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="33">
+<author>lotherk</author>
+<date>2011-11-17T11:09:33.499542Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/cositk/trunk/build.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="22">
+<author>lotherk</author>
+<date>2011-11-17T10:57:19.722433Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk/argumentor</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/windows/Windows.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/version/class-use/Version.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/releases/cositk-0.1.3-sources.zip.MD5</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/argumentor/ArgumentSet.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/class-use</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/examples/net</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/conf/Cfg.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/localizer/LocalizerKey.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/CfgValue.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/PlattformHandler.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSeparator.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/system/Plattform.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/Plattform.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentOption.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/CfgKey.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/tools/ObjectTool.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/resources/inherit.gif</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk/signal</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/examples/net/lother/cositk</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/windows</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build.num</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/system/windows/Windows.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/class-use/MacOSX.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/MacOSX.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/windows</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/MANIFEST.MF</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/examples/net/lother/cositk/examples</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSet.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/examples/net/lother/cositk/examples</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/signal/Signal.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/overview-tree.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/Plattform.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentSeparator.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/system/PlattformHandler.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/SuperConf.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/OSXAdapter.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/include/LICENSE.txt</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/include</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/signal</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/Signal.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/system/windows</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentOption.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/signal/SignalCallback.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentOptionQueue.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/conf/Conf.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/system/macosx/MacOSX.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/version/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Conf.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/version/package-use.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/Conf.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk/conf</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/version/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSet.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/signal/SignalHandler.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/overview-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentSeparator.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/examples</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/system/macosx/OSXAdapter.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/signal/Signal.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/resources</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/PlattformHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/deprecated-list.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/.project</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/system/DefaultPlattformHandler.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/argumentor/ArgumentOptionQueue.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/CfgKey.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/argumentor/ArgumentParameter.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentOptionQueue.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/conf</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/version/Version.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/Argument.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/Argument.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/SignalCallback.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/conf/Conf.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/.classpath</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/conf/CfgValue.class</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/releases</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk/version</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/version/Version.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/help-doc.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/Key.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/dev.properties</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/version</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/SignalHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/argumentor/ArgumentOption.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/index.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/conf/Value.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/conf/CfgKey.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Value.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/libs</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/version</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/Argument.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/macosx</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/Notifier.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/version/Version.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/constant-values.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-use.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/package-use.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/releases/cositk-0.1.3-javadoc.zip</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/conf/Key.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentMultiplicity.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Key.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/overview-frame.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/CfgValue.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentPrefix.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk/tools</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/releases/cositk-0.1.3-sources.zip</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/SignalHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/libs/log4j.jar</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/system/macosx</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/Notifier.class</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools/class-use</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/releases/cositk-0.1.3-bin.zip.MD5</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/DefaultPlattformHandler.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/system/Notifier.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/localizer/Localizer.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/Value.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build.xml</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/SignalCallback.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-use.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/log4j.properties</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/releases/cositk-0.1.3-bin.zip</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/windows/class-use</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/argumentor/ArgumentPrefix.class</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/tools</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/conf/CfgValue.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/argumentor/ArgumentSeparator.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer/class-use/LocalizerKey.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentPrefix.java</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/version/class-use</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/conf/SuperConf.class</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/examples</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/examples/net/lother/cositk/examples/DefaultExample.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/signal/SignalHandler.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/conf/CfgKey.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/class-use/OSXAdapter.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/conf/Value.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/argumentor/Argument.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/index-all.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/windows/Windows.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/class-use/Notifier.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/signal/SignalCallback.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentParameter.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/windows/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/conf/Key.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/macosx/OSXAdapter$1.class</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/examples/net/lother</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/examples/net/lother</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk/localizer</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/net/lother/cositk/system</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/localizer/LocalizerKey.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/version/package-tree.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer/class-use</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/class-use</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentSet.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentPrefix.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/Cfg.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/.settings</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools/package-use.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/DefaultPlattformHandler.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/SuperConf.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/stylesheet.css</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/localizer</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/src/net/lother/cositk/system</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/macosx/MacOSX.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentOptionQueue.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools/class-use/ObjectTool.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/tools/ObjectTool.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentParameter.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/argumentor/ArgumentMultiplicity.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/windows/class-use/Windows.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer/Localizer.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/build/examples/net</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/class-use/ArgumentMultiplicity.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer/LocalizerKey.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/build/net/lother/cositk/system/macosx/OSXAdapter.class</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/conf/Cfg.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/package-list</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/conf/class-use/Cfg.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/conf/SuperConf.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/class-use/Signal.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/Plattform.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/releases/cositk-0.1.3-javadoc.zip.MD5</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/argumentor/ArgumentOption.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/tools/ObjectTool.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/package-use.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/examples/net/lother/cositk/examples/DefaultExample.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/signal/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/argumentor/ArgumentParameter.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/system/macosx/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk/examples/net/lother/cositk</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/src/net/lother/cositk/localizer/Localizer.java</path>
+<path
+   kind="file"
+   action="A">/cositk/trunk/javadoc/net/lother/cositk/localizer/class-use/Localizer.html</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="21">
+<author>lotherk</author>
+<date>2011-11-17T10:55:55.836176Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/cositk</path>
+<path
+   kind="dir"
+   action="A">/cositk/trunk</path>
+</paths>
+<msg>Initial import.</msg>
+</logentry>
+</log>

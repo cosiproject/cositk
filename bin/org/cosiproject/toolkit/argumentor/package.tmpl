@@ -1,0 +1,309 @@
+<html>
+<head>
+</head>
+<body>
+	<p>This library is similar to the Unix getopt() but built in an
+		object oriented way.</p>
+	<h1>Argumentor Framework</h1>
+	<h2>Description</h2>
+	<p>This library is similar to the Unix getopt() but built in an
+		object oriented way.</p>
+	<p>An argument normally has a prefix like "-", "/" or "--".
+		Parameters are often separated by a single whitespace " ", an equal
+		"=" or a colon ":".</p>
+	<p>
+		<code>./myprogram --server foo.cosi-project.org</code>
+	</p>
+	<p>
+		In this example,
+		<code>myprogram</code>
+		is a little tool, that just connects to a remote host. It takes the
+		address of the remote host from the argument
+		<code>server</code>
+		. The parameter in this case is
+		<code>foo.cosi-project.org</code>
+		.
+	</p>
+	<p>
+		<code>./myprogram foo.txt</code>
+	</p>
+	<p>
+		<code>myprogram</code>
+		is a little tool that does something with a file. The file is passed
+		to the program by an argument. As you can see
+		<code>foo.txt</code>
+		does not have a prefix. Every data after the last argument or, if no
+		arguments are used, just the data after your program name, is pushed
+		to a
+		<code>String[]</code>
+		and can be accessed by the
+		<code>static</code>
+		method {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler#getData()
+		ArgumentHandler.getData()} from the class {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler ArgumentHandler}.
+	</p>
+	<p>An argument takes unlimited parameters, but you have to take an
+		eye on that.</p>
+	<p>
+		<code>./myprogram --arg1=param1 param2 param3</code>
+	</p>
+	<p>
+		This would not add
+		<code>param1</code>
+		,
+		<code>param2</code>
+		and
+		<code>param3</code>
+		to the parameter list of the argument
+		<code>arg1</code>
+		. Only
+		<code>param1</code>
+		would be added to the list while
+		<code>param2</code>
+		and
+		<code>param3</code>
+		would be added to
+		<code>data[]</code>
+		.
+	</p>
+	<p>
+		<code>./myprogram --arg1="param1 param2 param3"</code>
+	</p>
+	<p>
+		This would add
+		<code>param1</code>
+		,
+		<code>param2</code>
+		and
+		<code>param3</code>
+		to the paramter list of the argument
+		<code>arg1</code>
+		. The parameter are delimited by {@link
+		org.cosiproject.toolkit.argumentor.ArgumentDelimiter#NONE
+		ArgumentDelimiter.NONE} by default which is just a whitespace.<br />
+		<b>Note:</b> You do not need to put the parameter list in quotes, as
+		long as your complete parameter line does not contain any whitespace -
+		if you use "," as a delimiter for example. This is <b>not</b> the
+		recommended way.
+	</p>
+	<p>The {@link org.cosiproject.toolkit.argumentor.ArgumentHandler
+		ArgumentHandler} parses the argument line provided to your main method
+		by the JVM while starting your program. . This has to be done manually
+		by calling the static {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler#parse(String[]
+		args) parse(String[] args)} method of the {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler ArgumentHandler}
+		class. An {@link
+		org.cosiproject.toolkit.exceptions.ArgumentorUnknownArgument
+		ArgumentorUnknownArgument} Exception will be thrown by the {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler#parse(String[]
+		args) parse(String[] args)} method if an unexpected value is found.</p>
+	<p>You register an {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch} to
+		the {@link org.cosiproject.toolkit.argumentor.ArgumentHandler
+		ArgumentHandler}. The {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch}
+		consists of unlimited {@link
+		org.cosiproject.toolkit.argumentor.Argument ArgumentParameter}, an
+		{@link org.cosiproject.toolkit.argumentor.ArgumentMultiplicity
+		ArgumentMultiplicity} that describes the appearance of an {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch} in
+		the argument line, an {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSeparator
+		ArgumentSeparator} that describes the delimiter between {@link
+		org.cosiproject.toolkit.argumentor.Argument ArgumentParameter} and its
+		{@link org.cosiproject.toolkit.argumentor.ArgumentParameter
+		ArgumentValue}, and an {@link
+		org.cosiproject.toolkit.argumentor.ArgumentCallback ArgumentCallback}
+		that is triggered when the {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch} is
+		found in the argument line. An {@link
+		org.cosiproject.toolkit.argumentor.ArgumentEvent ArgumentEvent}
+		containing the {@link org.cosiproject.toolkit.argumentor.Argument
+		ArgumentParameter} will be passed to the {@link
+		org.cosiproject.toolkit.argumentor.ArgumentCallback#process
+		process(ArgumentEvent e)} method of the {@link
+		org.cosiproject.toolkit.argumentor.ArgumentCallback ArgumentCallback}
+		class.</p>
+	<p>
+		An {@link org.cosiproject.toolkit.argumentor.ArgumentSwitch
+		ArgumentSwitch} needs to be added to an {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSet ArgumentSet}. You can
+		add as many switches as you want (or at least as many as your
+		operating system supports). You can even add an {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSet ArgumentSet} to an
+		{@link org.cosiproject.toolkit.argumentor.ArgumentSet ArgumentSet} to
+		create multilevel {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSet ArgumentSet} that way.
+		By default {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler#getRootSet()
+		ArgumentHandler.getRootSet()} creates a default {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSet ArgumentSet} with the
+		title set to
+		<code>null</code>
+		. This can be used in the most cases and it's very unusual to set an
+		{@link org.cosiproject.toolkit.argumentor.ArgumentSet ArgumentSet} as
+		the root set by hand.<br /> The preferred way is to just use the
+		static {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler#addArgumentSet(ArgumentSet
+		set) addArgumentSet(ArgumentSet set)} of {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler ArgumentHandler} or
+		to a child by getting the {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSet ArgumentSet} by its
+		{@link org.cosiproject.toolkit.argumentor.ArgumentSet#getName() name}
+		using the static {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler#getArgumentSetByName(String
+		name) getArgumentSetByName(String name)} method of {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler ArgumentHandler}.
+	</p>
+	<p>
+		The {@link org.cosiproject.toolkit.argumentor.Argument
+		ArgumentParameter} consists of the {@link
+		org.cosiproject.toolkit.argumentor.Argument#getParameter() name}
+		itself, the {@link org.cosiproject.toolkit.argumentor.ArgumentPrefix
+		ArgumentPrefix} and a {@link java.util.List List} of {@link
+		org.cosiproject.toolkit.argumentor.ArgumentParameter ArgumentValue}
+		that is set by {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSwitchQueue
+		ArgumentSwitchQueue} after {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler#parse(String[]
+		args) parse(String[] args)}. This is done by the {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSwitchQueue#flush(List l)
+		flush(List l)} method of {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSwitchQueue
+		ArgumentSwitchQueue} class where <i>l</i> has been created by {@link
+		org.cosiproject.toolkit.argumentor.ArgumentHandler#parse(String[]
+		args) parse(String[] args)}
+	</p>
+	<p>
+		The best place for registering an {@see
+		org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch} to
+		the is usually the
+		<code>static { }</code>
+		block of your class because it's executed before your
+		<code>main(String[] args)</code>
+		method.
+	</p>
+	<h2>Function</h3>
+	<h3>How Argumentor parses the argument line</h4>
+	<p>./yourprogram --param1 val1 val2 val3 --param2 val1 --param3
+		val1</p>
+	<p>
+	<ul>
+		<li>'<i>--param1 val1 val2 val3 --param2 val1 --param3 val1</i>'
+			is the argument line. It will be passed as an {@link java.lang.String
+			String}[] array to your <code>main(String[] args)</code> method by
+			the JVM.</li>
+		<li>Your <code>main(String[] args)</code> method passes the args
+			array to the {@link
+			org.cosiproject.toolkit.argumentor.ArgumentHandler#parse(String[]
+			args) ArgumentHandler.parse(String[] args)} method.</li>
+		<li>{@link org.cosiproject.toolkit.argumentor.ArgumentHandler}
+			parses the argument line and creates a {@link java.util.List List}
+			out of the parsed {@link org.cosiproject.toolkit.argumentor.Argument}
+			which are added to the <code>List l</code>.</li>
+		<ul>
+			<li>'<i>--param1 val1 val2 val3</i>' is an {@link
+				org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch}.</li>
+			<ul>
+				<li>' ' (whitespace) is the {@link
+					org.cosiproject.toolkit.argumentor.ArgumentSeparator
+					ArgumentSeparator} in this example. See {@link
+					org.cosiproject.toolkit.argumentor.ArgumentSeparator
+					ArgumentSeparator} for a list of supported separators.</li>
+				<li>'<i>param1</i>' is the {@link
+					org.cosiproject.toolkit.argumentor.Argument ArgumentParameter}</li>
+				<ul>
+					<li>'<i>--</i>' is the {@link
+						org.cosiproject.toolkit.argumentor.ArgumentPrefix ArgumentPrefix}</li>
+					<li>'<i>val1 val2 val3</i>' is a List of {@link
+						org.cosiproject.toolkit.argumentor.ArgumentParameter
+						ArgumentValue}</li>
+				</ul>
+			</ul>
+		</ul>
+		<li>The {@link org.cosiproject.toolkit.argumentor.Argument
+			ArgumentParameter} <code>List l</code> will be passed to {@link
+			org.cosiproject.toolkit.argumentor.ArgumentSwitchQueue#flush(List l)
+			ArgumentSwitchQueue.flush(List l)}.</li>
+		<li>{@link org.cosiproject.toolkit.argumentor.ArgumentSwitchQueue
+			ArgumentSwitchQueue} compares the entries in <code>List l</code> with
+			the entries from the registered {@link
+			org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch}
+			list.</li>
+		<li>If {@link
+			org.cosiproject.toolkit.argumentor.ArgumentSwitchQueue
+			ArgumentSwitchQueue} finds an unexpected value in the argument line,
+			it will throw an {@link
+			org.cosiproject.toolkit.exceptions.ArgumentorUnknownArgumentException
+			ArgumentorUnknownArgumentException}.</li>
+		<li>{@link org.cosiproject.toolkit.argumentor.ArgumentSwitchQueue
+			ArgumentSwitchQueue} will call the {@link
+			org.cosiproject.toolkit.argumentor.ArgumentCallback#process(ArgumentEvent
+			e) process(ArgumentEvent e)} method of your {@link
+			org.cosiproject.toolkit.argumentor.ArgumentCallback ArgumentCallback}
+			and passes an {@link org.cosiproject.toolkit.argumentor.ArgumentEvent
+			ArgumentEvent} that contains the {@link
+			org.cosiproject.toolkit.argumentor.Argument ArgumentParameter} with
+			its {@link org.cosiproject.toolkit.argumentor.ArgumentParameter
+			ArgumentValue}.</li>
+	</ul>
+	</p>
+	<h3>The process of registering an {@link
+		org.cosiproject.toolkit.argumentor.ArgumentSwitch}</h4>
+	<ol>
+		<li>Create a class.</li>
+		<li>Go into the <code>static { }</code> block.</li>
+		<li>Create an instance of {@link
+			org.cosiproject.toolkit.argumentor.ArgumentSet ArgumentSet}.</li>
+		<li>Create an instance of {@link
+			org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch}.</li>
+		<li>Add an {@link
+			org.cosiproject.toolkit.argumentor.ArgumentMultiplicity
+			ArgumentMultiplicity} to the {@link
+			org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch}.</li>
+		<li>Create an instance of {@link
+			org.cosiproject.toolkit.argumentor.Argument ArgumentParameter}.</li>
+		<li>Set a {@link
+			org.cosiproject.toolkit.argumentor.Argument#setName(String name)
+			name} to the {@link org.cosiproject.toolkit.argumentor.Argument
+			ArgumentParameter}.</li>
+		<li>Set a {@link
+			org.cosiproject.toolkit.argumentor.ArgumentPrefix ArgumentPrefix} to
+			the {@link org.cosiproject.toolkit.argumentor.Argument
+			ArgumentParameter}.</li>
+		<li>Add the {@link org.cosiproject.toolkit.argumentor.Argument
+			ArgumentParameter} to the {@link
+			org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch}.</li>
+		<li>Repeat step 6 to 9 to create "symlinks".</li>
+		<li>Set an {@link
+			org.cosiproject.toolkit.argumentor.ArgumentCallback ArgumentCallback}
+			to the {@link org.cosiproject.toolkit.argumentor.ArgumentSwitch
+			ArgumentSwitch}.</li>
+		<li>Add the {@link
+			org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch} to
+			the {@link org.cosiproject.toolkit.argumentor.ArgumentSet
+			ArgumentSet}.</li>
+		<li>Repeat step 4 to 12 to create multiple {@link
+			org.cosiproject.toolkit.argumentor.ArgumentSwitch ArgumentSwitch}.</li>
+		<li>Add the {@link org.cosiproject.toolkit.argumentor.ArgumentSet
+			ArgumentSet} to {@link
+			org.cosiproject.toolkit.argumentor.ArgumentHandler ArgumentHandler}.
+			<i>(Respect the informations in the description about adding an
+				{@link org.cosiproject.toolkit.argumentor.ArgumentSet ArgumentSet})</i>
+		</li>
+		<li>Go to your <code>main(String[] args)</code> method.</li>
+		<li>Call {@link
+			org.cosiproject.toolkit.argumentor.ArgumentHandler#parse(String[]
+			args) ArgumentHandler.parse(args)}.</li>
+	</ol>
+	<h2>Example(s)</h3>
+	<ul>
+		<li><a
+			href="%JAVADOC.SVNBASE%/examples/net/lother/cositk/examples/ArgumentorExample.java">ArgumentorExample.java</a>
+		</li>
+	</ul>
+	@author lotherk @since 0.1.0
+</body>
+</html>
