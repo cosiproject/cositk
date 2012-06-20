@@ -1,0 +1,4 @@
+cositk
+======
+
+The COSI ToolKit
